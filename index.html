@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Get Cookie</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="logo.png" alt="Facebook Extensions Logo" class="logo">
+      <h1>Facebook Get Cookie</h1>
+    </header>
+    <main class="content">
+      <div class="form-group">
+        <label for="cookies">Cookies:</label>
+        <textarea id="cookies" rows="6" readonly>Đang tải cookie, vui lòng chờ...</textarea>
+      </div>
+      <div class="form-group actions">
+        <button id="refresh-button">Refresh</button>
+        <button id="copy-cookies-button">Copy Cookies</button>
+      </div>
+      <div class="form-group">
+        <label for="usx" class="checkbox-label">
+          <input type="checkbox" id="usx">
+           User Agent
+        </label>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Author: <a href="https://web.facebook.com/HuyKaiser.profile" target="_blank">HuyKaiser</a></p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

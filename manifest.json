@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "FacebookExtension",
+  "version": "1.0.0",
+  "description": "Export Facebook cookies and user agent",
+  "author": "HuyKaiser",
+  "homepage_url": "https://github.com/HuyKaiser/FacebookExtension",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "action": {
+    "default_title": "Facebook Extensions",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo.png",
+      "24": "logo.png",
+      "32": "logo.png"
+    }
+  },
+  "host_permissions": [
+    "https://*.facebook.com/*"
+  ],
+  "permissions": [
+    "cookies",
+    "scripting",
+    "tabs",
+    "storage",
+    "alarms",
+    "notifications"
+  ]
+}
