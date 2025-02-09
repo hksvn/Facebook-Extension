@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Export Facebook cookies and user agent",
   "author": "HuyKaiser",
-  "homepage_url": "https://github.com/HuyKaiser/FacebookExtension",
+  "homepage_url": "https://github.com/hksvn/Facebook-Extension",
   "icons": {
     "16": "logo.png",
     "48": "logo.png",
